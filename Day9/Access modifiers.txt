@@ -1,0 +1,37 @@
+Access modifiers- These are modifiers that control the access level of classes, Attributes, methods and constructors.
+
+For CLasses:
+* public - The class is accessible by any other class
+
+* default - The class can only be accessed by classes in the same package. Default is used when you do not specify a modifier 
+
+For attributes, methods and constructors:
+
+* public: The code is accessible for all classes
+
+* private: The code is only accessible within the declared class
+
+* default: Is used when a modifier is not specified. The code can only be accessed in the same package.
+
+*protected: The code is accessible in the same package and subclasses
+
+
+Non-Access Modifiers- These do not control access level but provide other function
+
+For Classes: 
+* final: The class cannot be inherited by other classes{In variable, final means the variable cannot be overwritten}
+
+* abstract: The class cannot be used to create objects(To access an abstract class, it must be inherited from another class)
+
+For attributes and methods:
+* final: The attribute or method cannot be overwritten
+
+* static: Attributes and methods belong to the class rather than the object(Static does not require creating an object)
+
+* abstract: Can only be used in an abstract class, and can only be used on methods.e.g abstract void run(); The method does not have a body. The body is inherited from the subclass
+
+* transient: Attributes and methods are skipped when serializing the object containing them
+
+* synchronized: Methods can only be accessed by one thread at a time
+
+*volatile: The value of an attribute is not cached thread-locally, it is always read from the "main memory" 

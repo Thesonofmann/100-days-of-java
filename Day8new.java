@@ -11,6 +11,8 @@ public class Day8new {
     }
     public static void main(String[] args){
         myStaticMethod(); // Calls the static method without creating object
+        // myPublicMethod(); This would output an error
+
 
         Day8new newObject = new Day8new(); // New object
         newObject.myPublicMethod(); //Calls the public method using object
