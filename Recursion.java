@@ -5,9 +5,9 @@ public class Recursion {
         int result = sum(10,5);
         System.out.println(result);
       }
-      public static int sum(int numerator, int denominator){
+      public static int permut(int numerator, int denominator){
         if (numerator > denominator){
-            return numerator + sum(numerator-1, denominator);
+            return numerator + (numerator-1, denominator);
         }
         else {
             return numerator;
