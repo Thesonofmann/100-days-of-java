@@ -11,3 +11,5 @@ Day 6: 8/28/2023: Pattern Design Programming(Creating rows and col using for loo
 Day 7: 8/29/2023: Java Recursion(Using a method to call itself to solve cummulative/permutation in maths)
 Day 8: 8/30/2023: Object Oriented Programming: Classes, Objects, Accessing Attributes(class representation of variable)
 Day 9: 8/31/2023: Java Class Constructor
+Day 10: 9/1/2023: A java function that takes two integer variables(attributes) and multiplies them
+Day 11: 9/2/2023: 
