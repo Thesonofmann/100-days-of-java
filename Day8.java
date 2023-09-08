@@ -1,5 +1,6 @@
 public class Day8 {
     final int y = 11; //makes the attribute(Variable) unable to be modified/edited
+    
     public static void main(String[] args){
         Day8 myFirstDay8 = new Day8();
         Class myFirstClass = new Class();
@@ -25,7 +26,7 @@ public class Day8 {
 
 
     }
-    //public class Class{ did not work. Find out why
+    
     static class Class{
         int y = 55;
     }

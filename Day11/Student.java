@@ -4,7 +4,8 @@ public class Student {
     //Subclass of Main.java
 
      private String name;
-    public void setName(String newName){
+   
+     public void setName(String newName){
          this.name = newName;
     }
     public String getName(){
