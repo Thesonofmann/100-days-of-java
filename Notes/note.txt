@@ -1,0 +1,54 @@
+**Object-Oriented Programming (OOP)** is a programming paradigm that uses objects and classes to structure code. In Java, OOP is fundamental to the language. Here's a brief explanation, followed by an example of how OOP can be used to solve the addition of two integers:
+
+1. **Object**: An object is a self-contained unit that contains both data (attributes) and the methods (functions) that operate on the data.
+
+2. **Class**: A class is a blueprint or template for creating objects. It defines the attributes and methods that the objects of the class will have.
+
+3. **Encapsulation**: Encapsulation is the concept of bundling data (attributes) and methods (functions) that operate on the data into a single unit (object) and restricting access to certain parts of that unit.
+
+4. **Inheritance**: Inheritance is a mechanism that allows one class (the subclass or child class) to inherit the attributes and methods of another class (the superclass or parent class).
+
+5. **Polymorphism**: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It allows you to write code that can work with objects of multiple classes in a generic way.
+
+Here's the syntax for defining a class and creating objects in Java:
+
+```java
+//   Define a class
+class MyClass {
+    // Define attributes (instance variables)
+    int attribute1;
+    int attribute2;
+
+    // Define methods
+    int add() {
+        return attribute1 + attribute2;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Create objects of the class
+        MyClass object1 = new MyClass();
+        MyClass object2 = new MyClass();
+
+        // Set values for attributes
+        object1.attribute1 = 5;
+        object1.attribute2 = 3;
+ 
+        object2.attribute1 = 10;
+        object2.attribute2 = 7;
+
+        // Call the add method on objects
+        int result1 = object1.add();
+        int result2 = object2.add();
+
+        // Print the results
+        System.out.println("Result 1: " + result1);
+        System.out.println("Result 2: " + result2);
+    }
+}
+```
+
+In this example, we define a class `MyClass` with two attributes (`attribute1` and `attribute2`) and a method `add` that performs addition on these attributes. We create two objects (`object1` and `object2`) and set values for their attributes. Then, we call the `add` method on these objects to perform addition and print the results.
+
+This demonstrates the basic principles of OOP, including encapsulation (attributes and methods bundled in a class), object creation, and method invocation on objects.

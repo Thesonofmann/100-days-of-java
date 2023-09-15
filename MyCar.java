@@ -16,7 +16,7 @@ public class MyCar {
         Recursion recursion = new Recursion();
         int multiClass1 = day7.permutation(7);
         System.out.println(multiClass1);
-        int multiClass2= recursion.permut(15, 2);
+        int multiClass2= recursion.permut(15, 2); // ???????
         System.out.println(multiClass2);
 
         // //accessing Classes on other files without object(Static method)

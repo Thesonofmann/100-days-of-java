@@ -1,0 +1,32 @@
+Certainly! This code is a Java program that demonstrates swapping the values of two variables, `x` and `y`, using Object-Oriented Programming (OOP) principles. Here's an explanation of the code:
+
+1. **Class Definition**: The code defines a class named `VariableSwapper`.
+
+2. **Instance Variables**:
+   - `private int a;` and `private int b;`: These are private instance variables of the `VariableSwapper` class, which represent the two integer values to be swapped.
+
+3. **Constructor**:
+   - `public VariableSwapper(int a, int b)`: This is the constructor of the `VariableSwapper` class. It takes two integer parameters, `a` and `b`, and initializes the instance variables `this.a` and `this.b` with these values. Essentially, when you create an instance of `VariableSwapper`, you provide the initial values for `a` and `b`.
+
+4. **Swap Method**:
+   - `public void swap()`: This method is responsible for swapping the values of `a` and `b`. It uses a temporary variable (`temp`) to hold the value of `a`, then assigns the value of `b` to `a`, and finally assigns the value of `temp` (which was the original value of `a`) to `b`. This process effectively swaps the values of `a` and `b`.
+
+5. **Getter Methods**:
+   - `public int getA()`: This method allows you to retrieve the current value of `a`.
+   - `public int getB()`: This method allows you to retrieve the current value of `b`.
+
+6. **Main Method**:
+   - `public static void main(String[] args)`: This is the entry point of the program. It demonstrates how to use the `VariableSwapper` class to swap the values of two variables, `x` and `y`.
+
+7. **Variable Initialization**:
+   - `int x = 5;` and `int y = 10;`: These are two integer variables `x` and `y` with initial values of 5 and 10, respectively.
+
+8. **Swapping Process**:
+   - The program prints the values of `x` and `y` before swapping.
+   - It then creates an instance of `VariableSwapper` called `swapper` with the values of `x` and `y`.
+   - It calls the `swap` method on the `swapper` object, which swaps the values of `a` and `b`.
+
+9. **Printing Result**:
+   - Finally, the program prints the values of `x` and `y` after swapping by calling the `getA()` and `getB()` methods on the `swapper` object.
+
+When you run this code, it will demonstrate that the values of `x` and `y` have been successfully swapped using the `VariableSwapper` class.

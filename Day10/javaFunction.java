@@ -1,6 +1,6 @@
 package Day10;
 
-public class javaFunction {
+public class JavaFunction {
     public static int multiply(int x, int y){
         int result = x * y;
         return result;

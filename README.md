@@ -14,4 +14,6 @@ Day 9: 8/31/2023: Java Class Constructor: Creating a class to initialize variabl
 Day 10: 9/1/2023: A java function that takes two integer variables(attributes) and multiplies them
 Day 11: 9/2/2023: Java OOP paradigm concepts and meaning(txt) Java Encapsulation: using PUBLIC get name and set name to read and make changes to a private variable in a public class
 Day 12: 9/8/2023: exercises on string method type and integer method type
-Day 13: 9/12/2023: 
+Day 13: 9/12/2023: Java Package and API: Packaging is a means of grouping a particular set of codes in a folder e.g package Day14;
+package Day15; ...You must have seen this in previous codes, in order to access them, the import method is used
+Day 14: 
