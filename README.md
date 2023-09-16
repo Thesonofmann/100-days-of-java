@@ -16,4 +16,5 @@ Day 11: 9/2/2023: Java OOP paradigm concepts and meaning(txt) Java Encapsulation
 Day 12: 9/8/2023: exercises on string method type and integer method type
 Day 13: 9/12/2023: Java Package and API: Packaging is a means of grouping a particular set of codes in a folder e.g package Day14;
 package Day15; ...You must have seen this in previous codes, in order to access them, the import method is used
-Day 14: 
+Day 14: Created OOP class, variables and methods in Car.java....Created the object in MainMain.java to access those attributes of public class Car
+Day 15: 9/16/2023: Java Package Retesting; 
