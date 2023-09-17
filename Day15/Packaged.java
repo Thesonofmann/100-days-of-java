@@ -8,6 +8,14 @@ public class Packaged {
         int y;
 
     }
+    void Group2(int x2, int y2){
+    int result;
+    int testing;
+        System.out.println(x2 + y2);
+        
+
+    }
+
     public static void main(String[] args){
         Group group = new Group();
         group.x = 17;
@@ -18,5 +26,17 @@ public class Packaged {
             }
             System.out.println();
         }
+        System.out.println("New Test");
+       Packaged newpackackage = new Packaged();
+       newpackackage.Group2(45, 55);
+
+
+
+
+
     }
+
+
+
 }
+
