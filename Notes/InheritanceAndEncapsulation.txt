@@ -4,7 +4,7 @@ Test on Day15
 To create inheritance and encapsulation in your code, you can follow these steps:
 
 1. Create a superclass (parent class) that defines common attributes and methods.
-2. Create a subclass (child class) that inherits from the superclass and adds its own attributes and methods.
+2. Create a subclass (child class) that inherits from the superclass and adds its own attributes and methods(Using a constructor, define each variable/attribute from the parent class in the child class)
 3. Use encapsulation by making the attributes private and providing public getter and setter methods to access and modify them.
 
 Here's an example based on your existing code:

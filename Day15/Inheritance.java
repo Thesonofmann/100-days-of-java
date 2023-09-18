@@ -1,7 +1,5 @@
 package Day15;
 
-import Day12.Stringmethod;
-
 //Superclass 
 class Main{
     //Attributes of superclass
@@ -11,19 +9,21 @@ class Main{
     private int modelYear = 2016;
   
     //Constructor
-    public Main(String model, String color, int modelYear){
-    this.model= model;
+    public Main(){
+    // this.model= model;
     model = "Lexus";
-    this.color = color;
+    brand = "RX350";
+    // this.color = color;
     color = "black";
-    this.modelYear = modelYear;
+    // this.modelYear = modelYear;
     modelYear= 2016;
 }
 
 
     // super class methods
-    public void honk(){
-        System.out.println("Tuuut, tuut");
+    public String honk(){
+        String t = "Tuuut, tuut";
+        return t;
     }
     public void carType(){
         System.out.println(brand);
@@ -49,18 +49,32 @@ class Main{
 }
 
 class Subclass extends Main{
-    public Subclass(String model, String color, int modelYear) {
-        super(model, color, modelYear);
+    private String horn;
+
+    public Subclass() {
+        horn = "Pimm Pimm";
+     //  super(model, color, modelYear);
         //TODO Auto-generated constructor stub
     }
+public String subhonk() {
+    return super.honk() +" " + horn;
+}
+    
 
-    private int d;
 }
 public class Inheritance{
     public static void main(String[] args){
 
-    Inheritance subclassObject = new Inheritance();
+    Subclass subclassObject = new Subclass();
+    // subclassObject.brand = "RAV4";
     subclassObject.carType();
+    System.out.println(subclassObject.getModel());
+    subclassObject.getModelYear();
+    System.out.println(subclassObject.honk());
+    System.out.println(subclassObject.subhonk());
+   //  Main superclass = new Main("Lexus", "black", 2016);
+
+
     }
     
 }
