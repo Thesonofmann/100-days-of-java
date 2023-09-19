@@ -1,5 +1,6 @@
 package Day15;
 
+
 //Superclass 
 class Main{
     //Attributes of superclass
@@ -59,7 +60,9 @@ class Subclass extends Main{
 public String subhonk() {
     return super.honk() +" " + horn;
 }
-    
+public String honk() {
+    return super.honk() + " " + horn;
+}
 
 }
 public class Inheritance{
@@ -72,9 +75,9 @@ public class Inheritance{
     subclassObject.getModelYear();
     System.out.println(subclassObject.honk());
     System.out.println(subclassObject.subhonk());
-   //  Main superclass = new Main("Lexus", "black", 2016);
-
-
+    Main superclass = new Main();
+        System.out.println(superclass.honk());
+        
     }
     
 }
