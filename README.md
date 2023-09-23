@@ -24,3 +24,4 @@ Day 17: 9/20/2023: Java Polymorphism; created a parent class(School) with variou
 Java Inner Class: Nested class inside a class(Solved 1/3 issues in day17.main): Created a inner class for students. To be completed over the next couple days
 Day 18: 9/21/2023: Abstract Classes and Methods:
 //apply to day17.Main.java//
+Day19:9/22/2023: Abstract classes and methods: //Redo day17.main using inner class and abstract method.
