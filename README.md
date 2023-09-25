@@ -20,8 +20,9 @@ Day 14: Created OOP class, variables and methods in Car.java....Created the obje
 Day 15: 9/16/2023: Java Package Retesting; Inheritance and Encapsulation(different commit, different tests)
 Day 16: 9/18/2023: Encapsulation and Inheritance Pt2; Variable Swapper using OOP;
 Day 17: 9/20/2023: Java Polymorphism; created a parent class(School) with various childclass(Classes)
-//THERE IS WORK TO BE DONE HERE//
+//THERE IS WORK TO BE DONE HERE//...DONE!
 Java Inner Class: Nested class inside a class(Solved 1/3 issues in day17.main): Created a inner class for students. To be completed over the next couple days
 Day 18: 9/21/2023: Abstract Classes and Methods:
 //apply to day17.Main.java//
 Day19:9/22/2023: Abstract classes and methods: //Redo day17.main using inner class and abstract method.
+Day 20: 9/25/2023: Created a method for calcuating number of students registered for each subclass under super class(School)

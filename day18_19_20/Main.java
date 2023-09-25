@@ -1,4 +1,4 @@
-package day18;
+package day18_19_20;
     // Abstract Class and Methods Pt2 //Check day9 for pt1
     
     //abstract class cannot be accessed by creating an object, they have to be inherited by another class...then an object of said class will be created....N:B the parent class in day17.main is a good example that could be converted into an abstract class i.e
@@ -18,6 +18,9 @@ package day18;
         String teacherName;
         int studentAge;
         String matricNo;
+        String java101;
+        String mongodb101;
+
         
        
         
@@ -34,13 +37,17 @@ package day18;
         studentAge = 0;
         matricNo = "Enter Matric No";
         registeringcourseID = "Enter Course ID";
-        isRegisteredJava = registeringcourseID.equals("JAVA101");
-         if (isRegisteredJava= true){
-         noOfJavaStudents++;   
-        }
-        isRegisteredMongoDB = registeringcourseID.equals("MongoDB101");
-        if (isRegisteredJava = true){
-        noOfMONGODBStudents++;}
+        java101 ="JAVA101";
+        mongodb101 = "MONGODB101";
+        // isRegisteredJava = registeringcourseID.equals(java101);
+        
+    }
+     // abstract methods: methods with empty bodies, the child class provudes the body after inheritance 
+    
+    public void courseStudentAssign(){
+        
+                    
+    
     }
 
      public void classTeacher(){
@@ -53,19 +60,38 @@ package day18;
         System.out.println("The name of the course is " + courseName); 
     }
         
-    // Inner Class, added on day 17, change this to abstract 
-     class Student{
         
+    // Inner Class, added on day 17, change this to abstract 
+     class Student{ 
+        public String getCourses(){
+            return java101 + " " + mongodb101;
+    
+        }
+    
               
         public void newRegistration(String studentName, int studentAge, String registeringcourseID){
                 
                 totalStudentsCount++;
-            }
+                System.out.println("Student nanme is " + studentName);
+                System.out.println("You are " + studentAge + " years old");
+                System.out.println("Reg courseID: " + registeringcourseID);
+                System.out.println();
+                System.out.println(isRegisteredJava);
+
+                if (registeringcourseID.equalsIgnoreCase(java101)){
+                    noOfJavaStudents++;
+                }
+                else { noOfMONGODBStudents++;
+
+                }
+                System.out.println("There are: " + noOfJavaStudents + "Java Students currently registered");
+                System.out.println();
+                System.out.println("There are: " + noOfMONGODBStudents + "MongoDB students currently registered");
+
+                // School.StudentClassAssign.courseStudentCount();
+        }
    
-   // abstract methods: methods with empty bodies, the child class provudes the body after inheritance 
-    abstract class studentCount{
-    abstract void courseStudentCount();
-    }
+  
 }
  }
 class JavaClass extends School{
@@ -76,17 +102,17 @@ class JavaClass extends School{
   
      }
         // Body of abstract method // trying to solve for the no of studdents that register for this particular class
-    public void courseStudentCount(){
+    //  public void courseStudentCount(){
             
-        for (int i = 1; i <= totalStudentsCount; i++){
-                System.out.println(registeringcourseID);
-             if (registeringcourseID== "Java101"){
-                 noOfJavaStudents++;
-                 System.out.println();
-            }
-             System.out.println("There are " + noOfJavaStudents + " students in Java Class");
-        }
-    }
+    //     for (int i = 1; i <= totalStudentsCount; i++){
+    //             System.out.println(Student.class..registeringcourseID);
+    //          if (registeringcourseID== "Java101"){
+    //              noOfJavaStudents++;
+    //              System.out.println();
+    //         }
+    //          System.out.println("There are " + noOfJavaStudents + " students in Java Class");
+    //     }
+    // }
 }
         class MongoDBClass extends School{
 
@@ -97,11 +123,11 @@ class JavaClass extends School{
             teacherName = "Mr Daniel";
             noOfStudents= 24;
         }
-        public void courseStudentCount(){
+//         public void courseStudentCount(){
 
 
-            System.out.println("There are " + noOfMONGODBStudents + " students in Mongo Class");
-   }
+//             System.out.println("There are " + noOfMONGODBStudents + " students in Mongo Class");
+//    }
     }
 
 public class Main {
@@ -168,9 +194,10 @@ public class Main {
         System.out.println(niit.totalStudentsCount);
         System.out.println(niit.noOfJavaStudents);
         System.out.println(niit.noOfMONGODBStudents);
-        class1.courseStudentCount();
-        class2.courseStudentCount();
+        // class1.courseStudentCount();
+        // class2.courseStudentCount();
         System.out.println();
+        System.out.println(niit.totalStudentsCount);
 
 
     }
