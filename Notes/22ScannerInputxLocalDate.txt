@@ -1,0 +1,46 @@
+JAVA INPUT
+
+To initialize/ import a scanner: 
+Scanner varName = new Scanner(System.in);
+
+
+To input a string
+String stringVariableName = varName.nextLine(); Reads user input and converts to a String
+
+Other methods include
+nextBoolean(): reads a boolean value from the user
+nextByte(): reads a byte value from the user
+nextDouble(): reads a double value from the user
+nextInt(): reads a int value from the user
+nextLong(): reads a long value from the user
+nextShort(): reads a short value from the user
+
+If you enter a wrong input, you will encounter an error message
+
+LOCALDATE
+
+LocalDate: reps date in the ff format (yyyy-MM-dd)
+LocalTime: reps in the ff fmt (hour-minute-second-nanoseconds)
+LocalDateTime: combines both of the above
+DateTimeFormatter: Formatter for displaying and parsing date time objects(Example in day22.main)
+
+Formatter Types 
+yyyy-MM-dd : "2023-09-27"
+dd/MM/yyyy : "27/09/2023"
+dd-MMM-yyyy : "27-Sep-2023"
+E, MMM dd yyyy : "Wed, Sep 27 2023"
+
+
+ARRAYLIST Commands
+
+
+clear(): deletes all the contents of the ARRAYLIST
+set(indexNo, input): used for changing elements of an index 
+add(input): for adding input to the ARRAYLIST
+get(indexNo): used for accessing items saved in the ARRAYLIST
+remove(indexNo): deleting a particular element 
+size(): displays how many elements are in the ARRAYLIST
+
+Looping and examples are available in day22.ARRAYLIST
+
+

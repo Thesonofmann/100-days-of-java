@@ -4,7 +4,7 @@ package day21;
         EASY, MEDIUM, high
     }
     
-    enum Courses{
+    enum SchoolCourse{
         JAVA,
         MONGODB,
         LOGIC
@@ -15,8 +15,11 @@ package day21;
 public class New {
     public static void main(String[] args){
 
-        for (Courses myC : Courses.values()){
-            System.out.println(myC);
+        for (Level lvl : Level.values()){
+            System.out.println(lvl);
+        }
+        for (SchoolCourse mC : SchoolCourse.values()){
+            System.out.println(mC);
         }
 
         //Declaring an enum object to access the attributes
@@ -64,7 +67,7 @@ public class New {
         }
 
         //Looping through an enum
-        for (Courses myCourses : Courses.values()){
+        for (SchoolCourse myCourses : SchoolCourse.values()){
             System.out.println(myCourses);
         }
 
