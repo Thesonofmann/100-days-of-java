@@ -76,8 +76,7 @@ package day18_19_20;
                 System.out.println("You are " + studentAge + " years old");
                 System.out.println("Reg courseID: " + registeringcourseID);
                 System.out.println();
-                System.out.println(isRegisteredJava);
-
+               
                 if (registeringcourseID.equalsIgnoreCase(java101)){
                     noOfJavaStudents++;
                 }
@@ -190,6 +189,11 @@ public class Main {
         School.Student student6 = niit.new Student();
         School.Student student7 = niit.new Student();
         School.Student student8 = niit.new Student();
+
+        student5.newRegistration("Thelma Oy", 21, "mongodb101");
+        student6.newRegistration("Uzo Maneeey", 11, "java101");
+        student7.newRegistration("Joshua Crypto", 20, "java101");
+        student8.newRegistration("Ada Ada", 22, "mongodb101");
 
         System.out.println(niit.totalStudentsCount);
         System.out.println(niit.noOfJavaStudents);

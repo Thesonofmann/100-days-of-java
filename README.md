@@ -26,3 +26,5 @@ Day 18: 9/21/2023: Abstract Classes and Methods:
 //apply to day17.Main.java//
 Day19:9/22/2023: Abstract classes and methods: //Redo day17.main using inner class and abstract method.
 Day 20: 9/25/2023: Created a method for calcuating number of students registered for each subclass under super class(School)
+//StudentsCount does not increase beyond 1
+Day 21: 9/26/2023: Java Interface: Just like abstract, methods of an interface does not have a body and is inherited using the keyword implements.  JAVA enum(Enumeration): special class for grouping constant(unchangeable variables) variables in the enum class can be used in a switch statement
