@@ -13,3 +13,16 @@ sort(): sorts the element of an array alphabetically or numerically
 Looping and examples are available in day23.ARRAYLIST
 
 
+
+LINKEDLIST
+
+ALmost Identical to the ArrayList, the linkedlist 
+Extra methods are:
+addFirst(): adds element/item to the top of the linkedlist
+addLast(): probably performs the same operation as add() which is adding element to the bottom of the linkedlist
+removeFirst(): self explanatory
+removeLast(): self explanatory
+getFirst();
+getLast():
+
+
