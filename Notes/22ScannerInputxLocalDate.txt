@@ -30,17 +30,3 @@ dd/MM/yyyy : "27/09/2023"
 dd-MMM-yyyy : "27-Sep-2023"
 E, MMM dd yyyy : "Wed, Sep 27 2023"
 
-
-ARRAYLIST Commands
-
-
-clear(): deletes all the contents of the ARRAYLIST
-set(indexNo, input): used for changing elements of an index 
-add(input): for adding input to the ARRAYLIST
-get(indexNo): used for accessing items saved in the ARRAYLIST
-remove(indexNo): deleting a particular element 
-size(): displays how many elements are in the ARRAYLIST
-
-Looping and examples are available in day22.ARRAYLIST
-
-

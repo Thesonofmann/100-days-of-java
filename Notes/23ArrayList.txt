@@ -1,0 +1,15 @@
+ARRAYLIST Commands
+
+
+clear(): deletes all the contents of the ARRAYLIST
+set(indexNo, input): used for changing elements of an index 
+add(input): for adding input to the ARRAYLIST
+get(indexNo): used for accessing items saved in the ARRAYLIST
+remove(indexNo): deleting a particular element 
+size(): displays how many elements are in the ARRAYLIST
+sort(): sorts the element of an array alphabetically or numerically
+
+
+Looping and examples are available in day23.ARRAYLIST
+
+
