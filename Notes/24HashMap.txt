@@ -1,0 +1,22 @@
+JAVAHASHMAP
+
+    Remember in rdbms, data is stored in forms of tables, the data in a row can be called/accessed by calling the Key value i.e studentRegNo will provide all info about the student.
+
+
+    HashMap is similar to arrayList, it stores the index along with the data in the array. And the key Value(index) can be different objectType(int, String)
+
+    HASHMAP Methods
+    .put("Key", "Value");
+    .get("Key");
+    .remove("Key");
+    .clear(); deletes all the items in the HashMap
+    .size() returns length of the HashMap
+
+
+
+
+
+
+
+
+    

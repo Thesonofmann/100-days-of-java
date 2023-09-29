@@ -30,3 +30,5 @@ Day 20: 9/25/2023: Created a method for calcuating number of students registered
 Day 21: 9/26/2023: Java Interface: Just like abstract, methods of an interface does not have a body and is inherited using the keyword implements.  JAVA enum(Enumeration): special class for grouping constant(unchangeable variables) variables in the enum class can be used in a switch statement
 Day 22: Java Scanner Input, LocalDate and Time. How to use DateTimeFormatter
 Day 23: 9/28/2023: ArrayList(how to lop, sort, change elements of an arrayList and more)
+Day 24: 9/29/2023: Java HashMap: Storing data in form of a table with two columns
+
