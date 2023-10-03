@@ -27,11 +27,13 @@ Day 18: 9/21/2023: Abstract Classes and Methods:
 Day19:9/22/2023: Abstract classes and methods: //Redo day17.main using inner class and abstract method.
 Day 20: 9/25/2023: Created a method for calcuating number of students registered for each subclass under super class(School)
 //StudentsCount does not increase beyond 1
-Day 21: 9/26/2023: Java Interface: Just like abstract, methods of an interface does not have a body and is inherited using the keyword implements.  JAVA enum(Enumeration): special class for grouping constant(unchangeable variables) variables in the enum class can be used in a switch statement
+Day 21: 9/26/2023: Java Interface: Just like abstract, methods of an interface does not have a body and is implemented (inherited) using the keyword implements.  
+JAVA enum(Enumeration): special class for grouping constant(unchangeable variables) variables in the enum class can be used in a switch statement
 Day 22: Java Scanner Input, LocalDate and Time. How to use DateTimeFormatter
 Day 23: 9/28/2023: ArrayList(how to lop, sort, change elements of an arrayList and more)
 Day 24: 9/29/2023: Java HashMap: Storing data in form of a table with two columns
 Day 25: 9/30/2023: Java Iterator: Iterator function for looping through ArrayList 
 Day 26: 10/1/2023: Wrapper Class(How to use primitive data types as objects i.e Integer instead of int, Boolean instead of boolean, String remains the same) Collections like ArrayList, LinkedList can only store objects like Integer, Boolean, String...Java Exceptions(try and catch), (throw)
-Day 27: 10/2/2023: JAva Regular Expression
+Day 27: 10/2/2023: JAva Regular Expressions
+Day 28: 10/3/2023: Java Threads(How to create single and multiple threads)using the synchronized access modifier
 
