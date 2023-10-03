@@ -35,5 +35,9 @@ Day 24: 9/29/2023: Java HashMap: Storing data in form of a table with two column
 Day 25: 9/30/2023: Java Iterator: Iterator function for looping through ArrayList 
 Day 26: 10/1/2023: Wrapper Class(How to use primitive data types as objects i.e Integer instead of int, Boolean instead of boolean, String remains the same) Collections like ArrayList, LinkedList can only store objects like Integer, Boolean, String...Java Exceptions(try and catch), (throw)
 Day 27: 10/2/2023: JAva Regular Expressions
-Day 28: 10/3/2023: Java Threads(How to create single and multiple threads)using the synchronized access modifier
+Day 28: 10/3/2023: Java Threads 1.) Initializing a thread as a class(extends)  2.) Implementing threads as an interface(implements){Multiple methods}++++ Multi-threading
+
+Lambda Expressions//Check amigoscode yt for breakdown
+Day 29: 10/4/2023: 
+
 
