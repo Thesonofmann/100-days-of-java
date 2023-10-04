@@ -1,0 +1,38 @@
+Java.io package has a File class that allows us to work with files.
+Steps to create and use the File class are displayed in day29.Main
+
+After creating an object of the class, the following methods can be used to better interact with the file
+
+canRead()....Boolean.....Tests wether the file is readable or not
+canWrite()....Boolean.....Tests wether the file can be written/edited
+createNewFile()...........creates a new, empty file
+delete()...................deletes a file
+exists()....Boolean.....tests whether a file exists
+getName()....String....... Returns the name of the file
+getAbsolutePath()....String....returns the absolute path of the file
+length()....Long......Returns the size of the file in bytes
+list()......String[].....returns an array of the files in the directory
+mkdir().......Creates a new directory
+
+
+
++++CREATING a File
+To Create a file, we use the createNewFile() method...{Due to IOExceptions when there is an error, the createNewFile method must be surrounded by a try_catch block} The method itself however returns true if the file is created and false if it already exists 
+
+SYNTAX for the catch method when creating a new File //writing this here bc I don't understand it
+
+catch (IOException e) {
+    //body of how to handle error
+    e.printStackTrace();
+}
+
+++++WRITING TO FILES 
+N.B: due to IOExceptions, you must also surround the FileWriter class Initializing codes with the try_catch block
+
++++READING FILES
+Still surrounded with the try and catch, Import the Scanner to read text files(yes, same scanner we use to read user input)
+
+Printing out the details of the file, does not need the try and catch, but you may need to redefine the object of the file OUTSIDE the try_catch block
+
+++++DELETING A FILE
+Use if statement to run the delete() and sout successfully if true

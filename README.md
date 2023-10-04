@@ -38,6 +38,6 @@ Day 27: 10/2/2023: JAva Regular Expressions
 Day 28: 10/3/2023: Java Threads 1.) Initializing a thread as a class(extends)  2.) Implementing threads as an interface(implements){Multiple methods}++++ Multi-threading
 
 Lambda Expressions//Check amigoscode yt for breakdown
-Day 29: 10/4/2023: 
+Day 29: 10/4/2023: File Handling(C.R.U.D)(Creating Files, Writing to a File, Reading Files,Deleting Files and Folder)
 
 
