@@ -41,5 +41,6 @@ Lambda Expressions//Check amigoscode yt for breakdown
 Day 29: 10/4/2023: File Handling(C.R.U.D)(Creating Files, Writing to a File, Reading Files,Deleting Files and Folder)
 Day 30: 10/5/2023: How to accept values from a user and add or multiply them
 Day 31: 10/14/2023: String types and literals
+Day 32: 10/15/2023: Control flow(Iteration, exception handling)
 
 
