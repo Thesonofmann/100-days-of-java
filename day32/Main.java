@@ -44,7 +44,7 @@ public class Main {
             }continue cont;
             
         }//continue cont;  //for the entire iterative to perform over and over, the continue has to come at the end of the iterative rather than where the break is invoked...SCRAP THAT
-        //we use continue when we want to find only 1 literal, to find multiple literals, we let the iterative run without a break or continue
+        //we use continue when we want to find only 1 literal, to find multiple literals, we let the iterative run without a break or continue.......SCRAP THAT....check day33.correction2
     }
     System.out.println();
     System.out.println("We checked the following numbers: " + checked); 
