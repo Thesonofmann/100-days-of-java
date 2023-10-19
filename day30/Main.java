@@ -34,7 +34,7 @@ public class Main extends Formulas {
         addition(input.nextInt(), input.nextInt());
         System.out.println("Success");
 
-
+        input.close();
         
     }
     

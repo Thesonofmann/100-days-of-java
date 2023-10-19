@@ -15,6 +15,7 @@ public class Reader {
                 String data = myReader.nextLine();
                 System.out.println(data);
                 System.out.println("SUCCESSFUL!");
+                myReader.close();
             }
 
 
@@ -35,7 +36,7 @@ public class Reader {
     } else {
         System.out.println("This file does not exist");
     }
-
+        
    
     }
 }
