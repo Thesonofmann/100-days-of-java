@@ -45,5 +45,7 @@ Day 32: 10/15/2023: Control flow(Iteration, exception handling)
 Day 33: 10/16/2023: A couple of correction to the chapter 1(Java Fundamentals)
 Day 34: 10/17/2023: Varags //solution to issues on day2// 
 Day 35: 10/18/2023: Constructors: Breakdown of day9
+Day 36: 10/19/2023: VARARGS: creating a method to accept and print an array of strings
+Day 37: 10/28/2023: 
 
 
