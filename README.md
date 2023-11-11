@@ -33,7 +33,7 @@ Day 22: Java Scanner Input, LocalDate and Time. How to use DateTimeFormatter
 Day 23: 9/28/2023: ArrayList(how to lop, sort, change elements of an arrayList and more)
 Day 24: 9/29/2023: Java HashMap: Storing data in form of a table with two columns
 Day 25: 9/30/2023: Java Iterator: Iterator function for looping through ArrayList 
-Day 26: 10/1/2023: Wrapper Class(How to use primitive data types as objects i.e Integer instead of int, Boolean instead of boolean, String remains the same) Collections like ArrayList, LinkedList can only store objects like Integer, Boolean, String...Java Exceptions(try and catch), (throw)
+Day 26: 10/1/2023: Wrapper Class(How to use primitive data types as objects i.e Integer instead of int, Boolean instead of boolean, String remains the same bc it is not a primitive data type) Collections like ArrayList, LinkedList can only store objects like Integer, Boolean, String...Java Exceptions(try and catch), (throw)
 Day 27: 10/2/2023: JAva Regular Expressions
 Day 28: 10/3/2023: Java Threads 1.) Initializing a thread as a class(extends)  2.) Implementing threads as an interface(implements){Multiple methods}++++ Multi-threading
 
