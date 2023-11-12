@@ -48,7 +48,7 @@ Day 35: 10/18/2023: Constructors: Breakdown of day9
 Day 36: 10/19/2023: VARARGS: creating a method to accept and print an array of strings
 Day 37: 10/28/2023: How to apply the toString() method, overriding methods pt1
 Day 38: 11/10/2023: Instance and static methods, attributes and properties
-Day 39: 11/11/2023: 
+Day 39: 11/11/2023: Interface
 
 
 
