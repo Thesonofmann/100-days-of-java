@@ -26,7 +26,7 @@ public class Main {
         interfaceHeadClassBody = new MC();
         //the above class cannot be instantiated unless the class MC is declared as static
 
-        
+        interfaceHeadClassBody.method2(44);
 
 
 
