@@ -50,6 +50,8 @@ Day 37: 10/28/2023: How to apply the toString() method, overriding methods pt1
 Day 38: 11/10/2023: Instance and static methods, attributes and properties
 Day 39: 11/11/2023: Interface
 Day 40: 11/12/2023: Interface vs Abstract Class
+Day 41: 11/13/2023: String(String methods in details)
+
 
 
 

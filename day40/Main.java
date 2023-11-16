@@ -3,7 +3,9 @@ package day40;
 public class Main {
     interface FirstInterface{
         void interMethod1();
-        String interMethod2(int i);
+        public static String interMethod2(){
+        return "This is a static method with a body in an interface";
+       }
         default int interMethod3(){
             return getNumber();
         }
@@ -14,5 +16,9 @@ public class Main {
             return 42;
         }
         
+        public static void main(String[] args){
+            String ff= FirstInterface.interMethod2();
+            System.out.println(ff);
+        }
     }
 }
