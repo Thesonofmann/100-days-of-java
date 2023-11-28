@@ -51,5 +51,6 @@ Day 38: 11/10/2023: Instance and static methods, attributes and properties
 Day 39: 11/11/2023: Interface
 Day 40: 11/12/2023: Interface vs Abstract Class
 Day 41: 11/13/2023: String(String methods in details)(StringBuilder and StringBuffer)
-Day 42: 11/15/2023: EditString project
+Day 42: 11/15/2023: EditString project  
+Day 43: 11/24/2023: HangMan Game Project           
 
