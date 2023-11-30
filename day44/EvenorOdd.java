@@ -17,7 +17,7 @@ public class EvenorOdd {
 			System.out.println(input + " is an odd number");
 		}
 		
-		
+		in.close();
 		
 	}
 
