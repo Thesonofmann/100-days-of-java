@@ -54,6 +54,6 @@ Day 41: 11/13/2023: String(String methods in details)(StringBuilder and StringBu
 Day 42: 11/15/2023: EditString project  
 Day 43: 11/24/2023: HangMan Game Project
 Day 44: 11/25/2023: Basic Salary Calculator + Even/Odd
-Day 45: 11/26/2023: Operators(Logical,Unary,mathematical operatot)
+Day 45: 11/26/2023: Operators(Logical,Unary,mathematical operators)
 
 
