@@ -51,9 +51,11 @@ Day 38: 11/10/2023: Instance and static methods, attributes and properties
 Day 39: 11/11/2023: Interface
 Day 40: 11/12/2023: Interface vs Abstract Class
 Day 41: 11/13/2023: String(String methods in details)(StringBuilder and StringBuffer)
-Day 42: 11/15/2023: EditString project  
-Day 43: 11/24/2023: HangMan Game Project
-Day 44: 11/25/2023: Basic Salary Calculator + Even/Odd
+Day 42: 11/15/2023: PROJ - EditString project  
+Day 43: 11/24/2023: PROJ - HangMan Game Project
+Day 44: 11/25/2023: PROJ - Basic Salary Calculator + Even/Odd
 Day 45: 11/26/2023: Operators(Logical,Unary,mathematical operators)
+Day 46: 01/17/2024: PROJ- Method to Check if a String contains a char of your choice
+Day 47: 01/18/2024: PROJ- Method to Remove Duplicate letters from a String
 
 
