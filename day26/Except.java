@@ -10,7 +10,7 @@ public class Except {
         if (age < 18){
             throw new ArithmeticException("Access denied - You must be at least 18 years of age");
         } else {
-            System.out.println("Access granted");
+            System.err.println("Access granted");
         }
     }
    
@@ -22,13 +22,12 @@ try{
         System.out.println(myNumbers[15]);
     }
 catch(Exception e){
-        System.out.println("Oops something went wrong");
+        System.err.println("Oops something went wrong");
     }
 finally {
-    System.out.println("The try and catch has ended");
+    System.err.println("The try and catch has ended");
 }
-
-System.out.println(); System.out.println(); System.out.println();
+ System.out.println(); System.out.println();
 
     checkAge(18);
     checkAge(22);
