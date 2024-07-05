@@ -62,6 +62,8 @@ Day 49: 01/26/2024: Multi-Dimensional Arrays
 Day 50: 02/06/2024: Error Handling(throw, throws, catch, try)
 Day 51: 02/07/2024: Using StringBuffer to accept input from user
 Day 52: PROJ: HangMan PROJECT continuation from Day43
-Day 53: 
+Day 53: PROJ: TodoList that adds,removes and modify item on your list
+Day 54: PROJ: Calender that accepts month and year, then prints the days of the month(90% done)
+
 
 
