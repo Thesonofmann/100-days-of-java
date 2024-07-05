@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("Enter a,b or c and hit enter");
 		String option = in.nextLine();
 		char op = option.charAt(0);
-		
+		hang
 		if (op == 'a') {
 		System.out.println("This is the game. Start playing");
 		// break;

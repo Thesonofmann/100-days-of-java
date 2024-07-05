@@ -6,7 +6,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that is based on the
 
 3. **Inheritance**: Inheritance allows you to create a new class (subclass or derived class) based on an existing class (superclass or base class). The subclass inherits the properties and behaviors of the superclass, and you can also add new attributes and methods or override existing ones. This promotes code reusability and hierarchical organization.
 
-4. **Polymorphism**: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables you to write code that works with objects in a more general way, without knowing their specific types. This can be achieved through method overriding and method overloading.
+4. **Polymorphism**: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables you to write code that works with objects in a more general way, without knowing their specific types. This can be achieved through method overriding and method overloading.....Polymorphism simply means creating multiple child classes to inherit from a parent class
 
 5. **Method Overriding**: Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. This allows you to customize the behavior of a method in the subclass while still retaining the method's name and parameters.
 

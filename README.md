@@ -60,5 +60,6 @@ Day 47: 01/18/2024: PROJ- Method to Remove Duplicate letters from a String
 Day 48: 01/25/2024: Basic java program showing that multiple variables can be declared and instantiated on a single line
 Day 49: 01/26/2024: Multi-Dimensional Arrays
 Day 50: 02/06/2024: Error Handling(throw, throws, catch, try)
+Day 51: 02/07/2024: 
 
 
