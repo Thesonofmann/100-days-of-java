@@ -65,6 +65,7 @@ Day 52: PROJ: HangMan PROJECT continuation from Day43
 Day 53: PROJ: TodoList that adds,removes and modify item on your list
 Day 54: PROJ: Calender that accepts month and year, then prints the days of the month(90% done)
 Day 55: JAVA FX: Complete login && signup authentication without using a database
-
+Day 56: JAVA FX: Create a login/Signup Page that connects to a database    !!!!!!!!!!!!!
+Day 57: The evolving of switch case, java 8 to java 12
 
 
